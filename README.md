@@ -2,7 +2,7 @@
 
 Converts a string to morse code and play sound
 
-screenshot.jpg
+![alt screenshot](https://https://raw.githubusercontent.com/andreboyce/morsecode/main/screenshot.jpg)
 
 ### Requirements
 
