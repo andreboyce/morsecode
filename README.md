@@ -8,7 +8,9 @@ Windows XP or Above
 
 ### Execute
 
-MorseCode.exe
+Release/MorseCode.exe
+
+https://raw.githubusercontent.com/andreboyce/morsecode/main/Release/MorseCode.zip
 
 ### Compiling
 

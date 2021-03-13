@@ -10,4 +10,3 @@ C:\myfiles\code\cpp\school\electronics\MorseCode\MorseCode\Release\MorseCode.Cod
 C:\myfiles\code\cpp\school\electronics\MorseCode\MorseCode\Release\MorseCode.Form1.resources
 C:\myfiles\code\cpp\school\electronics\MorseCode\MorseCode\Release\MorseCode.vcxproj.GenerateResource.cache
 C:\myfiles\code\cpp\school\electronics\MorseCode\MorseCode\Release\MorseCode.exe
-C:\myfiles\code\cpp\school\electronics\MorseCode\MorseCode\Release\MorseCode.vcxprojAssemblyReference.cache

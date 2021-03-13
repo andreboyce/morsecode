@@ -93,7 +93,8 @@
       <TargetMachine>MachineX86</TargetMachine>
     </Link>
     <PostBuildEvent>
-      <Command>copy "$(ProjectDir)$(Configuration)\*.exe" "$(SolutionDir)$(Configuration)\"</Command>
+      <Command>copy "$(ProjectDir)$(Configuration)\*.exe" "$(SolutionDir)$(Configuration)\"
+</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
