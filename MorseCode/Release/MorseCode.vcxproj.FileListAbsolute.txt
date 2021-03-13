@@ -1,0 +1,13 @@
+C:\myfiles\code\projects\school\electronics\MorseCode\MorseCode\MorseCode\Release\MorseCode.vcxprojAssemblyReference.cache
+C:\myfiles\code\projects\school\electronics\MorseCode\MorseCode\MorseCode\Release\MorseCode.AboutDialog.resources
+C:\myfiles\code\projects\school\electronics\MorseCode\MorseCode\MorseCode\Release\MorseCode.char_test.resources
+C:\myfiles\code\projects\school\electronics\MorseCode\MorseCode\MorseCode\Release\MorseCode.CodeDialog.resources
+C:\myfiles\code\projects\school\electronics\MorseCode\MorseCode\MorseCode\Release\MorseCode.Form1.resources
+C:\myfiles\code\projects\school\electronics\MorseCode\MorseCode\MorseCode\Release\MorseCode.vcxproj.GenerateResource.cache
+C:\myfiles\code\cpp\school\electronics\MorseCode\MorseCode\Release\MorseCode.AboutDialog.resources
+C:\myfiles\code\cpp\school\electronics\MorseCode\MorseCode\Release\MorseCode.char_test.resources
+C:\myfiles\code\cpp\school\electronics\MorseCode\MorseCode\Release\MorseCode.CodeDialog.resources
+C:\myfiles\code\cpp\school\electronics\MorseCode\MorseCode\Release\MorseCode.Form1.resources
+C:\myfiles\code\cpp\school\electronics\MorseCode\MorseCode\Release\MorseCode.vcxproj.GenerateResource.cache
+C:\myfiles\code\cpp\school\electronics\MorseCode\MorseCode\Release\MorseCode.exe
+C:\myfiles\code\cpp\school\electronics\MorseCode\MorseCode\Release\MorseCode.vcxprojAssemblyReference.cache

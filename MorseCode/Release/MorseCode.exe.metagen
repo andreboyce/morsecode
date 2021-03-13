@@ -1,0 +1,185 @@
+  MorseCode.AboutDialog.resources - Embedded, ContainedInManifestFile, 
+  MorseCode.char_test.resources - Embedded, ContainedInManifestFile, 
+  MorseCode.CodeDialog.resources - Embedded, ContainedInManifestFile, 
+  MorseCode.Form1.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly MorseCode, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class MorseCode.AboutDialog: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class MCode: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Fields:
+    System.Collections.Generic.Dictionary`2[System.SByte,System.String] charMap : Public
+    System.Collections.Generic.Dictionary`2[System.String,System.SByte] morseMap : Public
+  Methods:
+    op_Subscript(String): PrivateScope, Public, HideBySig, SpecialName
+    op_Subscript(SByte IsSignUnspecifiedByte): PrivateScope, Public, HideBySig, SpecialName
+    ConvertToMorseCode(String): PrivateScope, Public, HideBySig
+    ConvertToAscii(String): PrivateScope, Public, HideBySig
+    StripNonMorseCharacters(String): PrivateScope, Public, HideBySig
+    IsMorse(Char(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class MorseCode.char_test: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    MCode mCode : Public
+Class MorseCode.CodeDialog: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ControlClass: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Fields:
+    System.Windows.Forms.Button buttonStop : Public
+    System.Windows.Forms.Button buttonStart : Public
+    System.Windows.Forms.Button buttonPause : Public
+    System.Windows.Forms.RichTextBox richTextBoxMCode : Public
+    System.Windows.Forms.NumericUpDown numericUpDownFrequency : Public
+    System.Windows.Forms.NumericUpDown numericUpDownChannels : Public
+    System.Windows.Forms.TrackBar trackBarSpeed : Public
+    System.Windows.Forms.TrackBar trackBarVolume : Public
+    System.Windows.Forms.CheckBox checkBoxLoop : Public
+  Methods:
+    SetRange(TrackBar, Int32, Int32, Int32): PrivateScope, Public, HideBySig
+    SetText(Control, String): PrivateScope, Public, HideBySig
+    SetNumericUpDownValue(NumericUpDown, Int32): PrivateScope, Public, HideBySig
+    SetCheckBoxValue(CheckBox, Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    SelectControl(Control): PrivateScope, Public, HideBySig
+    SelectText(TextBoxBase, Int32, Int32): PrivateScope, Public, HideBySig
+    EnableControl(Control): PrivateScope, Public, HideBySig
+    DisableControl(Control): PrivateScope, Public, HideBySig
+    HandleError(String): PrivateScope, Public, HideBySig
+    InvokeSetRange(TrackBar, Int32, Int32, Int32): PrivateScope, Public, HideBySig
+    InvokeSetText(Control, String): PrivateScope, Public, HideBySig
+    InvokeSetNumericUpDownValue(NumericUpDown, Int32): PrivateScope, Public, HideBySig
+    InvokeSetCheckBoxValue(CheckBox, Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    InvokeSelect(Control): PrivateScope, Public, HideBySig
+    InvokeSelectText(TextBoxBase, Int32, Int32): PrivateScope, Public, HideBySig
+    InvokeEnableControl(Control): PrivateScope, Public, HideBySig
+    InvokeDisableControl(Control): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class ControlClass+SetTextDelegate: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Control, String): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(Control, String, AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class ControlClass+SelectControlDelegate: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Control): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(Control, AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class ControlClass+EnableControlDelegate: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Control): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(Control, AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class ControlClass+DisableControlDelegate: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Control): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(Control, AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class ControlClass+SelectTextDelegate: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(TextBoxBase, Int32, Int32): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(TextBoxBase, Int32, Int32, AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class ControlClass+SetNumericUpDownValueDelegate: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(NumericUpDown, Int32): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(NumericUpDown, Int32, AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class ControlClass+SetCheckBoxValueDelegate: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(CheckBox, Boolean(HasFieldMarshal)): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(CheckBox, Boolean(HasFieldMarshal), AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class ControlClass+SetRangeDelegate: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(TrackBar, Int32, Int32, Int32): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(TrackBar, Int32, Int32, Int32, AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class SoundClass: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Fields:
+    ControlClass controlClass : Public
+    System.Threading.Mutex m_mutex : Public
+    FMOD.System* m_system : Public
+    FMOD.Sound* m_DotSound : Public
+    FMOD.Sound* m_DashSound : Public
+    FMOD.Sound* m_SpaceSound : Public
+    FMOD.Channel* m_channel : Public
+    FMOD.Channel* m_DotChannel : Public
+    FMOD.Channel* m_DashChannel : Public
+    FMOD.Channel* m_SpaceChannel : Public
+    FMOD.ChannelGroup* m_Group1 : Public
+    FMOD.ChannelGroup* m_MasterGroup : Public
+    UInt32 m_version : Public
+    Int32 m_MaxChannels : Public
+    Int32 m_defaultVolume : Public
+    Single m_defaultFrequency : Public
+    System.String m_Message : Public
+    Boolean m_bLoop : Public
+    Boolean m_bQuitThread : Public
+    Boolean m_bThreadLooping : Public
+    Boolean m_bPaused : Public
+  Methods:
+    HandleFmodError(FMOD_RESULT, String): PrivateScope, Public, HideBySig
+    HandleFmodError(FMOD_RESULT): PrivateScope, Public, HideBySig
+    Alert(String, String): PrivateScope, Public, HideBySig
+    Alert(String): PrivateScope, Public, HideBySig
+    SetMessage(String): PrivateScope, Public, HideBySig
+    LoadSounds(): PrivateScope, Public, HideBySig
+    getPaused(): PrivateScope, Public, HideBySig
+    Resume(): PrivateScope, Public, HideBySig
+    Pause(): PrivateScope, Public, HideBySig
+    Stop(): PrivateScope, Public, HideBySig
+    SetVolume(Single): PrivateScope, Public, HideBySig
+    Play(): PrivateScope, Public, HideBySig
+    GetFrequency(): PrivateScope, Public, HideBySig
+    SetFrequency(Single): PrivateScope, Public, HideBySig
+    PlayDotOrDash(Int32): PrivateScope, Public, HideBySig
+    ThreadProc(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class MorseCode.Form1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Threading.Thread soundThread : Public
+    MCode mCode : Public
+    SoundClass soundClass : Public
