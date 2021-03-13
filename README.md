@@ -1,4 +1,4 @@
-# morsecode
+# MorseCode
 
 Converts a string to morse code and play sound
 
