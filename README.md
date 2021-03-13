@@ -3,7 +3,6 @@
 Converts a string to morse code and play sound
 
 ![alt screenshot](https://raw.githubusercontent.com/andreboyce/morsecode/main/screenshot.jpg)
-![alt screenshot](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 ### Requirements
 
